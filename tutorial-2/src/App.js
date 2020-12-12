@@ -9,6 +9,12 @@ function App() {
         <p>
           Hello Jamal. Lets start the game..
         </p>
+        <p>
+          Hello Jamal. Lets start the game..
+        </p>
+        <p>
+          Hello Jamal. Lets start the game..
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
