@@ -37,10 +37,10 @@ jobs:
           cmd: install
           
       - name: creating build
-        run: npm build
+        run: yarn build
         
       - name: installing surge
-        run: npm install -g surge
+        run: yarn install -g surge
         
       - name: Deloying on surge app
         run: surge ./ http://jakm9911-boot.surge.sh/ --token ${{ secrets.TOKENTUT }}
