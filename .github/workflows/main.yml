@@ -40,7 +40,7 @@ jobs:
         run: yarn build
         
       - name: installing surge
-        run: npm install -g surge
+        run: yarn install -g surge
         
       - name: Deloying on surge app
         run: surge ./build http://jamal123456789-boot.surge.sh/ --token {{ surge.TOKENTUT }}
